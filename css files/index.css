@@ -61,13 +61,27 @@ font-size: 16px;
     color: #111;
 }
 .container .nav .searchbar .icon:hover{
-    background: #d7d1d1;
+    background: #ecebeb;
 }
 .container .nav .searchbar .icon i{
     font-size:large;
 padding: 7px;
 }
+.container .nav .darkmode .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 30px;
+height: 30px;
+margin: 10px;
+border-radius: 50%;
+}
+.container .nav .darkmode .icon:hover{
+    background-color: #ecebeb;
+}
+.container .nav .darkmode .icon i{
 
+}
 /* scrollbar content */
 .menu-box{
     display: flex;
