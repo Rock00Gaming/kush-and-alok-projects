@@ -6,6 +6,17 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .container .nav{
     display: flex;
     position: sticky;
@@ -83,17 +94,90 @@ border-radius: 50%;
 .container .nav .darkmode .icon i{
 
 }
+.container .nav2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.container .nav2 i{
+    color: #db8ff5;
+    margin-right: -20px;
+}
+.container .nav2 a{
+    color: #111;
+    text-decoration: none;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: normal;
+    font-weight: 100;
+}
+.container .nav2 .btns{
+    display: flex;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.container .nav2 .btns .btn-1{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    position: relative;
+    left: 30px;
+}
+.container .nav2 .btns .btn-1:hover{
+    background-color: #059862;
+}
+.container .nav2 .btns .btn-2{
+    width: 50%;
+    border-radius: 20px;
+    color: #111;
+    border: none;
+    background-color:#b8d7c2;
+
+}
+.container .nav2 .btns .btn-2:hover{
+    background-color: #059862;
+}
+.nav2 .item1,.item2,.item3{
+    display: flex;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 .item2{
+
+}
+.nav2 .item3{
+
+}
+.nav2 .item1,.item2,.item3:hover{
+    background-color: #d9c8c8;
+}
 /* scrollbar content */
 .content{
    background-color: #111;
    height: 800px;
    width: 100%; 
+   
 }
 .content .menu-box{
     display: flex;
-        position: fixed;;
-       
-    }
+    top: 50;
+    left: 0;
+    position: fixed;;
+    overflow: scroll;
+}
 
 .content .menu-box a{
     padding: 10px;
@@ -101,7 +185,6 @@ border-radius: 50%;
 
     color: #fff;
     display: flex;
-    position: relative;  
 }
 .content .menu-box a:hover {
 background: #111;
