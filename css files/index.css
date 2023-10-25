@@ -101,7 +101,7 @@ border-radius: 50%;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-right: -85px;
+    /* margin-right: -85px; */
 }
 .container .nav2 i{
     color: #db8ff5;
