@@ -93,6 +93,7 @@ border-radius: 50%;
 }
 .container .nav .darkmode .icon i{
 
+    
 }
 .container .nav2{
     display: flex;
@@ -101,7 +102,7 @@ border-radius: 50%;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-right: -85px;
+    /* margin-right: -85px; */
 }
 .container .nav2 i{
     color: #db8ff5;
@@ -206,11 +207,31 @@ border-radius: 50%;
 background: #111;
 }
 .content{
-    height: 605px;
+    height: 655px;
     width: 100%;
     background-image: url("../images/background.gif");
 }
+/* okkkkkkkkkkkkk */
+.custom-shape-divider-bottom-1698222115 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1698222115 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 42px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1698222115 .shape-fill {
+    fill: #FFFFFF;
+}
 /* Content start */
 .content-box {
     margin: auto;
@@ -284,176 +305,6 @@ background-color: #fff;
     color: #FFF4A3
 }
 /* second page */
-    .page2 {
-        position: relative;
-        top: -250px;
-            display: flex;
-            flex-direction: row;
-            align-content: center;
-            justify-content: space-evenly;
-            align-items: center;
-            background-color: #D9EEE1;
-            height: 450px;
-        }
-svg{
-    position: relative;
-    top: -172px;
-}
 .page2 h1{
-font-size: 70px;  
-margin-left: 70px;
-margin-bottom: 30px;
+font-size: 70px;    
 }
-.page2 .buttons{
-    display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-        
-}
-.page2 .btn1{
-                width: 200px;
-                height: 43px;
-                border-radius: 20px;
-                background-color: #04AA6D;
-                border: none;
-                color: #fff;
-            margin-top: 20px;
-        }
-        .page2 .btn2 {
-                    width: 200px;
-                    height: 43px;
-                    border-radius: 20px;
-                    background-color: #FFF4A3;
-                    border: none;
-                    color: #111;
-                margin-top: 20px;
-        }
-        .page2 .btn3 {
-                            width: 200px;
-                            height: 43px;
-                            border-radius: 20px;
-                            background-color: #111;
-                            border: none;
-                            color: #fff;
-                            margin-top: 20px;
-        }
-            
-        .page2 .btn4 {
-                                            width: 200px;
-                                            height: 43px;
-                                            border-radius: 20px;
-                                            background-color: #db8ff5;
-                                            border: none;
-                                            color: #111;
-                                        margin-top: 20px;
-}
-.example {
-        width: 400px;
-            height: 335px;
-            background-color: #E7E9EB;
-            padding: 20px;
-            box-shadow: 0px 0px 15px 1px #dddddd;
-        }
-
-.example .heading{
-    margin-bottom: 30px;
-   
-}
-.example .box{
-    width: 300px;
-    background-color: #fff;
-    border-left: 4px solid #04AA6D;
-    padding: 15px;
-}
-.example button{
-    width: 200px;
-    height: 43px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    background-color: #04AA6D;
-    border: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-}
-.example button:hover{
-    background-color: #059862;
-  
-}
-/* page3 */
-   .page2 {
-       position: relative;
-       top: -250px;
-       display: flex;
-       flex-direction: row;
-       align-content: center;
-       justify-content: space-evenly;
-       align-items: center;
-       background-color: #D9EEE1;
-       height: 450px;
-   }
-
-   svg {
-       position: relative;
-       top: -172px;
-   }
-
-   .page h1 {
-       font-size: 70px;
-       margin-left: 70px;
-       margin-bottom: 30px;
-   }
-
-   .page3 .buttons {
-       display: flex;
-       flex-direction: column;
-       align-items: stretch;
-       justify-content: center;
-       align-content: center;
-       flex-wrap: wrap;
-
-   }
-
-   .page3 .btn1 {
-       width: 200px;
-       height: 43px;
-       border-radius: 20px;
-       background-color: #04AA6D;
-       border: none;
-       color: #fff;
-       margin-top: 20px;
-   }
-
-   .page3 .btn2 {
-       width: 200px;
-       height: 43px;
-       border-radius: 20px;
-       background-color: #FFF4A3;
-       border: none;
-       color: #111;
-       margin-top: 20px;
-   }
-
-   .page3 .btn3 {
-       width: 200px;
-       height: 43px;
-       border-radius: 20px;
-       background-color: #111;
-       border: none;
-       color: #fff;
-       margin-top: 20px;
-   }
-
-   .page3 .btn4 {
-       width: 200px;
-       height: 43px;
-       border-radius: 20px;
-       background-color: #db8ff5;
-       border: none;
-       color: #111;
-       margin-top: 20px;
-   }
