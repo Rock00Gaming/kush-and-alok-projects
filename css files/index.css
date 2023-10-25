@@ -14,19 +14,12 @@ margin: 7px;
  border: none;
  background-color: #fff;
  color: #111;
-<<<<<<< HEAD
- padding: 10px;
-}
-.container .nav select:hover{
-=======
  padding:15px;
- margin-left: 5px;
 text-decoration: none;
 }
 .container .nav a:hover{
 
-    height: 20px;
->>>>>>> 5420ee26dc084ac18f9bc7be00c77946f7c4d4e9
+    height: 18px;
     background-color: #04AA6D;
     color: #fff;
 }
@@ -61,12 +54,8 @@ font-size: 16px;
 padding: 7px;
 }
 
-<<<<<<< HEAD
- /*scrollbar content*/ 
-=======
 /* scrollbar content */
->>>>>>> 5420ee26dc084ac18f9bc7be00c77946f7c4d4e9
-.menu-box{
+.menu-container{
     display: flex;
    background-color: #111;
 
