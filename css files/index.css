@@ -34,3 +34,16 @@ text-decoration: none;
 }
 
 /* scrollbar content */
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 18px;
+    text-decoration-color:black;
+}
+}
