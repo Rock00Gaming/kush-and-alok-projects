@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <title>
+                    w3schools.html
+                </title>
+                <style>
+                    nav{
+                    	background:tomato;
+		    margin: 0px;
+		    padding: 5px;
+			display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            position: absolute;
+            padding: 0;
+            height: 72px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            
+		}
+		nav a{
+			text-decoration: none;
+			margin: 10px;
+			font-size: 20px;
+			color:white;
+		}
+		nav a:hover{
+			background-color: aqua;
+            color:black;
+            height: 50px;
+            width: 15%;
+            padding: 10px;
+		}
+		
+		form.example input[type=text] {
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 71%;
+    height: 25px;
+    background: #f1f1f1;
+}
+form.example button {
+    float:right;
+    width: 24%;
+    height: 39px;
+    padding: 18px;
+    background: #fff;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form img {
+    display:flex;
+    position: relative;
+    height: 32px;
+    width: 20px;
+    margin-top: -18px;
+    padding: 3px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 30px;
+    }
+                </style>
+            </meta>
+        </meta>
+    </head>
+    <body>
+    	
+        <nav class="w3-box">
+            <img alt="boat" src="logo1.png" style="width:56px;min-height:56px;max-height:600px;">
+            </img>
+            <a class="item w3-button" href="">
+                Tutorials
+            </a>
+            <a class="item w3-button" href="">
+                Exercises
+            </a>
+            <a class="item w3-button" href="">
+                Certificates
+            </a>
+            <a class="item w3-button" href="">
+                Services
+            </a>
+            <form class="example"action="/action_page.php"  style="margin:auto;max-width:300px">
+             <input type="text" placeholder="Search.." name="search">
+             <button type="submit"><img src="icons8-search-50.png" alt="Lights" style="width:40%">
+             </button>
+
+         </form>    
+        </nav>
+
+    </body>
+</html>
