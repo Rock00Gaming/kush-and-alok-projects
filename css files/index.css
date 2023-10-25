@@ -206,7 +206,7 @@ border-radius: 50%;
 background: #111;
 }
 .content{
-    height: 610px;
+    height: 605px;
     width: 100%;
     background-image: url("../images/background.gif");
 }
@@ -302,4 +302,8 @@ background-color: #fff;
 }
 .content-box .link a:hover{
     color: #FFF4A3
+}
+/* second page */
+.page2 h1{
+font-size: 70px;    
 }
