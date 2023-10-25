@@ -69,18 +69,27 @@ padding: 7px;
 }
 
 /* scrollbar content */
+.menu{
+   background-color: #111;
+   height: 800px;
+   width: 100%; 
+}
 .menu-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+    border:2px solid black;
+    overflow: hidden;
     margin: 10px;
     padding: 10px;
     width: 100%;
     font-size: 17px;
-    text-decoration-color:black;
+
+    
 }
 .menu-box a{
-    border:solid;
-padding: 10px;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px;
 }
