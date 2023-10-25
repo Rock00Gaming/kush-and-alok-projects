@@ -23,18 +23,49 @@ justify-self: center;
  background-color: #fff;
  color: #111;
  padding:15px;
+ margin-left: 5px;
 text-decoration: none;
 }
 .container .nav a:hover{
 
-    height: 18px;
+    height: 20px;
     background-color: #04AA6D;
     color: #fff;
     text-decoration: none;
 }
+.container .nav .searchbar input{
+    position: relative;
+    top: 7px;
+   border: 1px solid grey;
+    margin: 10px;
+    width: 170px;
+    height: 35px;
+    margin: auto;
+    border-radius: 20px;
+padding-left: 10px;
+font-size: 16px;
+}
+.container .nav .searchbar input::placeholder{
+    padding-left: 10px;
+    font-style: italic;
+}
+.container .nav .searchbar .icon{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -28px;
+   right: -137px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    color: #111;
+}
+.container .nav .searchbar .icon i{
+    font-size:large;
+padding: 7px;
+}
 
 /* scrollbar content */
-.menu-container{
+.menu-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,5 +76,4 @@ text-decoration: none;
     width: 100%;
     font-size: 18px;
     text-decoration-color:black;
-}
 }
