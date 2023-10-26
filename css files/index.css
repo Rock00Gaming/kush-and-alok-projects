@@ -101,7 +101,7 @@ border-radius: 50%;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-right: -85px;
+    /* margin-right: -85px; */
 }
 .container .nav2 i{
     color: #db8ff5;
@@ -352,7 +352,7 @@ margin-bottom: 30px;
 }
 .example {
         width: 400px;
-            height: 335px;
+            height: 380px;
             background-color: #E7E9EB;
             padding: 20px;
             box-shadow: 0px 0px 15px 1px #dddddd;
@@ -394,12 +394,12 @@ margin-bottom: 30px;
        justify-content: space-evenly;
        align-items: center;
        background-color: #D9EEE1;
-       height: 450px;
+       height: 500px;
    }
 
    svg {
        position: relative;
-       top: -172px;
+       top: -195px;
    }
 
    .page h1 {
@@ -457,4 +457,305 @@ margin-bottom: 30px;
        color: #111;
        margin-top: 20px;
    }
-   
+   .page3 h1{
+    display: flex;
+    font-size: 70px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    flex-direction: row;
+    justify-content: center
+   }
+   .page3 h3{
+    display: flex;
+    justify-content: space-around;
+}
+.page3{
+    position: relative;
+    top: -250px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff4a3;
+    height: 500px;
+}
+.page3 h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.page4 .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.page4 h1{
+    display: flex;
+    font-size: 70px;
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    flex-direction: row;
+    justify-content: center
+   }
+   .page4 h4{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    color: black;
+    font-size: 20px;
+}
+.page4{
+    position: relative;
+    top: -250px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+}
+.page4 h3 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.page4 .btn1 {
+
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+.page4 .btn3 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin-top: 20px;
+}
+.page4 .btn4 {
+    
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #ffc0c7;
+    border: none;
+    color: #111;
+    margin-top: 20px;
+}
+.page5 .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.page5 .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.page5 .btn1 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.page5 .btn2 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #FFF4A3;
+    border: none;
+    color: #111;
+    margin-top: 20px;
+}
+
+.page5 .btn3 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #111;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.page5 .btn4 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #db8ff5;
+    border: none;
+    color: #111;
+    margin-top: 20px;
+}
+.page5 h1{
+ display: flex;
+ font-size: 70px;
+ margin-left: 5px;
+ margin-bottom: 17px;
+ flex-direction: row;
+ justify-content: center
+}
+.page5 h3{
+ display: flex;
+ justify-content: space-around;
+}
+.page5{
+ position: relative;
+ top: -250px;
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: #fff;
+ height: 500px;
+}
+.page5 h3 {
+ display: flex;
+ justify-content: flex-start;
+}
+.page6 .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.page6 .btn1 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.page6 .btn2 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #FFF4A3;
+    border: none;
+    color: #111;
+    margin-top: 20px;
+}
+
+.page6 .btn3 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #111;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.page6 .btn4 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #db8ff5;
+    border: none;
+    color: #111;
+    margin-top: 20px;
+}
+.page6 h1{
+ display: flex;
+ font-size: 70px;
+ margin-left: 5px;
+ margin-bottom: 17px;
+ flex-direction: row;
+ justify-content: center
+}
+.page6 h3{
+ display: flex;
+ justify-content: space-around;
+}
+.page6{
+ position: relative;
+ top: -250px;
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: #96d4d4;
+ height: 500px;
+}
+.page6 h3 {
+ display: flex;
+ justify-content: flex-start;
+}
+.page7 .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+
+}
+.page7 .btn1 {
+    width: 200px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.page7{
+    position: relative;
+    top: -250px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFC0C7;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: inherit;
+    border-radius: 10px;
+    content: "";
+    display: table;
+    clear: both;
+   }
+   .page7 h5{
+    display: flex;
+    font-size: 45px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    flex-direction: row;
+    justify-content: center
+   }
