@@ -143,6 +143,11 @@ border-radius: 50%;
     background-color:#b8d7c2;
 
 }
+.container .nav2 .btns .btn-2 span{
+    position: relative;
+    right: -10px;
+}
+
 .container .nav2 .btns .btn-2:hover{
     background-color: #059862;
 }
