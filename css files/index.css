@@ -1526,7 +1526,132 @@ font-size: 50px;
 /* boxes--7 */
 .boxes--7{
     width: 100%;
-    height: 400px;
-    background-color: #0d0e13;
+    height: 450px;
+    background-color: #282A35;
     color: #fff;
+}
+.boxes--7 h1 {
+    padding-top: 50px;
+    font-size: 45px;
+}
+.boxes--7  h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #FFC0C7;
+}
+.boxes--7 .taxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+    width: 365px;
+    margin: auto;
+}
+.boxes--7 .taxes h5 img{
+    margin-right: 20px;
+}
+.boxes--7 .taxes h5 {
+font-size: 17px;
+}
+.boxes--7  button{
+ width: 300px;
+ height: 45px;
+ border-radius: 30px;
+ background-color: #04AA6D;
+ color: #fff;
+ border: none;
+ font-size: 18px;
+ font-weight: 700;
+}
+/* boxes--8 */
+.boxes--8 {
+background-color: #F3ECEA;
+color: #000;
+padding-top: 78px;
+padding-bottom: 95px
+}
+.boxes--8 h1 {
+font-size: 65px;
+font-weight: 700;
+}
+.boxes--8 h4 {
+font-size: 20px;
+margin-top: 25px;
+}
+.boxes--8 img {
+width: 150px;
+    height: 128px;
+    margin-top: 16px;
+}
+/* boxes--9 */
+.boxes--9{
+padding: 5%;
+height: 421px;
+background:#96D4D4
+}
+.boxes--9 h1{
+font-family: 'Freckle Face', cursive;
+font-size: 48px
+}
+.boxes--9 h2{
+font-family: 'Freckle Face', cursive;
+font-size: 32px;
+margin-bottom: 50px;
+}
+.boxes--9 button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 52px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 11px 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: #282A35;
+    color: #fff;
+    font-weight: 500;
+}
+.boxes--10 {
+    padding: 5%;
+    height: 421px;
+    background: #282A35;
+}
+
+.boxes--10 h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.boxes--10 h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.boxes--10 .but1 {
+    width: 547px;
+    height: 192px;
+    border: none;
+    background-color: #04AA6D;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 40px;
+    font-size: 35px;
+}
+.boxes--10 .but2 {
+        width: 547px;
+        height: 192px;
+    margin-left: 40px;
+        border: none;
+        background-color: #FFF4A3;
+        color: #111;
+        font-weight: 600;
+            font-size: 35px;
 }
